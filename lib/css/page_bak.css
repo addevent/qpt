@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+/*************************************************************************** 01_About */
+.profile { margin-bottom:56px;}
+.profile img:first-child { margin-bottom:20px;}
+.message img:first-child { display:block; margin-bottom:20px;}
+
+.location {width:920px; height:400px; margin-bottom:45px;}
+.contact_dsc p {font-size:16px; font-weight:bold; color:#6e6e6e;}
+
+/*************************************************************************** 02_Restaurants */
+.branch_gallery { padding-bottom:20px; }
+.branch_gallery .branch_wrap { position:relative; width:336px; height:50px; overflow:hidden; display:inline-block;}
+.branch_gallery ul { position:relative; height:25px;}
+.branch_gallery li { position:relative; display: inline; margin-left:5px; }
+.branch_gallery li:first-child { margin-left:0; }
+.branch_pager {width:336px; height:42px; margin:20px auto;}
+.branch_pager a { width:60px; height:50px; overflow:hidden; }
+.branch_pager a:hover { width:60px; height:50px; display:inline-block; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border:4px solid #a7926d; }
+.branch_pager a:hover img { margin:-4px; }
+
+.branch_address { padding-top:30px; }
+.branch_address tr{ height:44px; line-height:44px; font-size:14px; color:#6a6a6a; text-align:left; border-top:1px solid #bbbbbb; border-bottom:1px solid #bbbbbb;}
+.branch_address tr:first-child th, .branch_address tr:first-child td {border-top:1px solid #bbbbbb !important;}
+.branch_address tr th { background:#f4f4f4; border-top:1px solid #e6e6e6; text-align:left; padding-left:20px;}
+.branch_address tr td { border-top:1px solid #e6e6e6; padding-left:20px;}
+	.sub_tit { font-size:16px; margin:10px 0;}
+
+.branch_map { padding-top:30px; }
+.branch_map .location { width:920px; height:280px; background:#333; color:#fff}
+
+/*************************************************************************** 03_Menu */
+
+.menu_dsc img {margin-bottom: 45px;}
+
+.beef_dsc { height:410px; }
+.beef_dsc dl:first-child {margin-left:0;}
+.beef_dsc dl { float:left; width:260px; margin-left:70px; }
+.beef_dsc dl dd { padding-top:20px; color:#6e6e6e; font-size: 14px; line-height: 1.5; text-align:justify;}
+.beef_dsc dl dd p { margin-bottom:30px; }
+
+.menusub_dsc img:first-child { margin-right:20px;}
+
+.drink img { margin-bottom:45px;}
+
+/*************************************************************************** 04_Customer > News */
+
+.branch_choice { position:relative; width:260px; margin-left:660px; margin-bottom:25px; }
+.branch_choice span { display:inline-block; width:148px; height:25px; background:url('../../img/05_customer/barch_choice_select.gif') no-repeat; color:#626262; padding-left:20px; padding-top:11px; font-size:14px; }
+
+.branch_choice ul { position:absolute; width:166px; border-left:1px solid #e6e6e6; border-right:1px solid #e6e6e6; border-bottom:1px solid #e6e6e6; background:#f5f5f5; right:0; top:36px;}
+.branch_choice ul li{ height:22px; line-height:22px; font-size:14px; padding-top:10px; padding-bottom:10px; padding-left:20px; color:#626262;}
+.branch_choice ul li a:hover{ color:#a12323; font-weight:700;}
+
+/******************************************************* board table */
+table {width:100%; table-layout:fixed;}
+.board {margin-top:0px; border-top:1px solid #bbbbbb;}
+.board th {font-size:14px; height:44px; line-height:44px; border-bottom:1px solid #d9e0e3; background-color:#f4f4f4; color:#6a6a6a; font-weight:normal; letter-spacing:-1px; vertical-align: top;}
+.board_list th {border-bottom:1px solid #d9e0e3; background-color:#f4f4f4; color:#666; font-weight:normal; letter-spacing:-1px;}
+.board td {height:22px; line-height:22px; padding:11px 0; border-bottom:1px solid #e6e6e6;}
+.board thead th { text-align:center; background:#f4f4f4;}
+.board td { vertical-align:top; color:#838383; padding-left: 10px; padding-right: 10px;}
+.division { text-align:left !important; padding-left:20px !important;}
+.board_list tbody td {text-align:center; vertical-align:top; color:#838383; font-size:12px;}
+.board tbody td.title a {overflow:hidden; display:block; text-align:left; color:#6a6a6a; white-space:nowrap; text-overflow:ellipsis;}
+.board tbody td.title a:hover {text-decoration:none !important; font-weight:bold;}
+.board tbody td.num, .board tbody td.date, .board tbody td.visit {font-family:Arial;}
+.board_list tbody tr:hover {color:#0072aa;}
+.board_list tbody tr:hover td.title a {color:#a12323;}
+.board .btn_st03 {margin:-3px 0 -5px;}
+
+/******************************************************* paginate */
+
+.paginate { height:14px; margin-top:31px; text-align:center; vertical-align:middle;}
+.paginate .page_num {display:inline-block; overflow:hidden; vertical-align:middle; margin-left:40px; margin-right:40px;}
+.paginate .page_num a {display:inline-block; cursor:pointer; font-size:14px; padding: 0 10px; color:#999999;}
+.paginate .page_num a:hover { color:#a12323;}
+.paginate .page_num .page_active { color:#a12323; font-weight:bold; }
+
+/******************************************************* board_view */
+.board_view { border-bottom: 1px solid #a9a9a9;}
+.board_view > div { overflow: hidden; padding : 15px 20px; color: #474747; border-bottom: 1px solid #e6e6e6;}
+.board_view div.tit { border-top: 1px solid #cccccc; background:#f4f4f4;}
+.board_view div.tit p { float:left; color:#6a6a6a; font-weight:bold;}
+.board_view div.tit p span { font-weight:normal;}
+.board_view div.tit .info {float:right; font-weight:normal; font-size:12px; padding-top:4px;}
+
+.board_view div.txt_box { padding:25px; border-bottom: none; color:#6a6a6a; font-size:14px; line-height:1.5; text-align:justify;}
+.board_view div.txt_box > p { margin-bottom:30px;}
+
+.board_view ul.pn { overflow: hidden; font-size:14px;}
+.board_view ul.pn dl { overflow: hidden;}
+.board_view ul.pn dt {  float:left; padding: 11px 28px; height:18px; line-height:18px; color:#a12323; font-weight:bold;}
+.board_view ul.pn dd {  overflow: hidden; padding: 11px 0 11px 28px; height:18px; line-height:18px; color:#6a6a6a; }
+.board_view ul.pn dd span { font-weight:700;}
+	.prev_page { border-bottom: 1px solid #e3e3e3;}
+	.prev_page dt { background: url('../../img/04_customer/page_bar.gif') no-repeat right center;}
+	.next_page dt { background: url('../../img/04_customer/page_bar.gif') no-repeat right center;}
+/******************************************************* btn */
+
+.btn_black { 
+	margin-left: 0px; padding: 9px 20px; text-align: center; 
+	line-height: 13px; background: #838383; color: #fff; font-size: 14px; font-weight: 700;
+	letter-spacing:  0px;
+	border: 1px solid #838383; 
+}
+.btn_black:hover, .btn_black:focus{ background: #000; border: 1px solid #000; color: #fff;}
+
+.btn_c {text-align:center; margin-top:30px;}
+
+/*************************************************************************** 04_Customer > Event */
+.event_list {width:920px; border-bottom:1px solid #e6e6e6; margin-bottom:31px;}
+.event_list img {margin-bottom:10px;}
+.event_list dl { display:inline-block; width:290px; height:304px; margin-left:21px; margin-bottom:33px;}
+.event_list dl:first-child {margin-left:0;}
+.event_list dl:nth-child(4) {margin-left:0;}
+.event_list dl dt { font-size:16px; font-weight:bold; margin-bottom:6px;}
+.event_list dl dd {font-size:12px; color:#6a6a6a; line-height:22px;}
+.event_list dl dd img {margin-right:5px;}

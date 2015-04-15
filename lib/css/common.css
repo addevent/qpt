@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/*************************************************************************************************
+*	@CreateDate          : 2015.04.14
+*	@ModifyDate          : 2015.04.14
+*	@FileName            : layout.css
+*	@Author-Design       : 
+*	@Author-Publishing   : hm-jin
+*************************************************************************************************/
+
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+/*@import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);*/
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/*
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  font-weight: 400; 
+  src: url('../../lib/font/NanumBarunGothic.eot');
+  src: url('../../lib/font/NanumBarunGothic.eot?#iefix') format('embedded-opentype');
+  src: local(※), url('../lib/font/NanumBarunGothic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../lib/font/NanumBarunGothicBold.eot');
+  src: url('../../lib/font/NanumBarunGothicBold.eot?#iefix') format('embedded-opentype');
+  src: local(※), url('../lib/font/NanumBarunGothicBold.woff') format('woff');
+}
+*/
+
+
+body { font-family: 나눔고딕,'Nanum Gothic', sans-serif !important; font-weight:400; font-size:14px; line-height:1.5em; background:#eee; overflow:hidden; }
+
+hr { border:0; background:#e6e6e6; height:1px; margin:0; padding:0;}
+
+.mt10 { margin-top: 10px !important;}
+.mt15 { margin-top: 15px !important;}
+.mt20 { margin-top: 20px !important;}
+.mt30 { margin-top: 30px !important;}
+.mt40 { margin-top: 40px !important;}
+
+.white { color:#fff; }
+.black { color:#000; }
+.gray { color:#838383; }
+
+a.link { text-decoration:underline; color:#d90037; }
+
+.form-type01 { background:#f5f5f5; border:1px solid #e6e6e6; color:#626262;
+	font-family: 나눔고딕,'Nanum Gothic', sans-serif; font-weight:400; font-size:14px; min-height:18px; line-height:1.5em; padding:5px 10px; 
+}
+
+textarea { 
+	overflow: auto; overflow-x: hidden; border: 0; padding:0; color:#838383;
+	font-family: 나눔고딕,'Nanum Gothic', sans-serif; font-weight:400; font-size:14px; line-height:1.5em;
+}
+
+.of-h { overflow:hidden; }
+.fl-l { float:left; }
+.fl-r { float:right; }
+.cl-b { clear:both; }
+.bd-x { border:0 !important; }
+
+.dp-ib { display:inline-block; }
+.dp-b { display:block; }
+.dp-no { display:none; }
+
+.t-center { text-align:center; }
+.t-underline { text-decoration:underline; }
+.m-center { margin:0 auto; }
+
+.font-e { font-family: 'Open Sans', sans-serif; }
+.font-k { font-family: 'Nanum Gothic', sans-serif; }
+.font14 { font-size:14px; }
+
+.box-type01 { border:1px solid #bbb; padding:30px; color:#6a6a6a; }
+.bul-tit01 { font-size:16px; font-weight:700; color:#333; line-height:15px; padding-left:15px; background:url(../../img/common/bul_arrow01.png) no-repeat left center; }
+
+.bul-type01 { width:12px; height:2px; background-color:#6a6a6a; }
+
+.tbox-tit { font-size:15px; font-weight:700; color:#6a6a6a; }
+
+.max { width:100% }
+
+

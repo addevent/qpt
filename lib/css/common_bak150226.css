@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+/*@import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);*/
+
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nanum Barun Gothic Regular'), local('Nanum Barun Gothic-Regular'), local('NanumBarunGothic Regular') , local('NanumBarunGothic');
+  src: url("../../lib/font/NanumBarunGothic.eot");
+  src: url("../../lib/font/NanumBarunGothic.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Nanum Barun Gothic Bold'), local('Nanum Barun Gothic-Bold'), local('NanumBarunGothic Bold'), local('NanumBarunGothicBold');
+  src: url("../../lib/font/NanumBarunGothicBold.eot");
+  src: url("../../lib/font/NanumBarunGothicBold.woff") format('woff');
+}
+
+
+
+body { font-family: 나눔바른고딕,'Nanum Barun Gothic', sans-serif; !important; font-weight:400; font-size:14px; }
+
+hr { border:0; background:#4d4d4d; height:1px; margin:0; padding:0;}
+
+.mt5 { margin-top: 5px !important;}
+.mt10 { margin-top: 10px !important;}
+.mt15 { margin-top: 15px !important;}
+.mt20 { margin-top: 20px !important;}
+.mt25 { margin-top: 25px !important;}
+.mt30 { margin-top: 30px !important;}
+.mt35 { margin-top: 35px !important;}
+.mt40 { margin-top: 40px !important;}
+.mt45 { margin-top: 45px !important;}
+.mt50 { margin-top: 50px !important;}
+.mt55 { margin-top: 55px !important;}
+.mt60 { margin-top: 60px !important;}
+.mt65 { margin-top: 65px !important;}
+.mt70 { margin-top: 70px !important;}
+.mt75 { margin-top: 75px !important;}
+.mt80 { margin-top: 80px !important;}
+
+.ml5 { margin-left: 5px !important;}
+.ml10 { margin-left: 10px !important;}
+.ml15 { margin-left: 15px !important;}
+.ml20 { margin-left: 20px !important;}
+.ml25 { margin-left: 25px !important;}
+.ml30 { margin-left: 30px !important;}
+.ml35 { margin-left: 35px !important;}
+.ml40 { margin-left: 40px !important;}
+.ml60 { margin-left: 60px !important;}
+
+.txt14 { font-size:14px; }
+.txt16 { font-size:16px; }
+.txt17 { font-size:17px; }
+.txt18 { font-size:18px; }
+.txt19 { font-size:19px; }
+.txt20 { font-size:20px; }
+.txt22 { font-size:22px; }
+.txt23 { font-size:23px; }
+.txt24 { font-size:24px; }
+.txt26 { font-size:26px; }
+.txt28 { font-size:28px; }
+.txt29 { font-size:29px; }
+.txt30 { font-size:30px; }
+.txt32 { font-size:32px; }
+.txt34 { font-size:34px; }
+.txt35 { font-size:35px; }
+.txt36 { font-size:36px; }
+.txt40 { font-size:40px; }
+.txt48 { font-size:48px; }
+.txt50 { font-size:50px; }
+.txt53 { font-size:53px; }
+.txt60 { font-size:60px; }
+.txt67 { font-size:67px; }
+.txt68 { font-size:68px; }
+.txt70 { font-size:70px; }
+.txt76 { font-size:76px; }
+.txt100 { font-size:100px; }
+
+.white { color:#fff; }
+.black { color:#000; }
+.gray { color:#838383; }
+
+a.link { text-decoration:underline; color:#d90037; }
+
+input.txt { background-color:#1e1e1e; border:1px solid #424242; height:40px; margin: 0; padding: 0 5px; font-size:20px; color:#fff; vertical-align:middle; }
+input.txt2 { background-color:#000; border:1px solid #2d2d2d; height:40px; margin: 0; padding: 0; font-size:20px; color:#fff; vertical-align:middle; }
+textarea { overflow: auto; overflow-x: hidden; border: 1px solid #424242; background-color:#1e1e1e; font-size:20px; color:#fff; padding: 0 5px;
+	font-family: LG_Smart,"Apple SD Gothic Neo","Malgun Gothic",Dotum,sans-serif;
+}
+
+.of_h { overflow:hidden; }
+.fl_l { float:left; }
+.fl_r { float:right; }
+.cl_b { clear:both; }
+.bd_x { border:0 !important; }
+
+.dp_ib { display:inline-block; }
+.dp_b { display:block; }
+
+.t_center { text-align:center; }
+.t_underline { text-decoration:underline; }
+.m_center { margin:0 auto; }
+
+.font-e { font-family: 'Open Sans', sans-serif; }
+.font-k { font-family: 'Nanum Barun Gothic', sans-serif; }
+.font14 { font-size:14px; }
+
+/* */
+.flag_s { width:31px; height:20px; }
+

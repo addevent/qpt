@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/*************************************************************************************************
+*	@CreateDate          : 2015.04.14
+*	@ModifyDate          : 2015.04.14
+*	@FileName            : layout.css
+*	@Author-Design       : 
+*	@Author-Publishing   : hm-jin
+*************************************************************************************************/
+
+/* -------------------------------------------Layout------------------------------------------- */
+.wrap { width:100%; }
+.container { position:relative; width:800px;  margin:0 auto; }
+
+/* -------------------------------------------- header ------------------------------------- */
+#wrap-header { position:fixed; top:0px; height:50px; }
+/* -------------------------------------------- contents ------------------------------------- */
+#wrap-contents { position:relative; }
+#wrap-contents div.page { position:absolute; left:-800px; top:0; width:800px; height:600px; background:#999; overflow:hidden; }
+/* -------------------------------------------- footer ------------------------------------- */
+#wrap-footer { position:fixed; bottom:0px; height:50px; }
