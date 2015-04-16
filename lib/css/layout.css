@@ -16,6 +16,8 @@
 #wrap-header { position:fixed; top:0px; height:50px; }
 /* -------------------------------------------- contents ------------------------------------- */
 #wrap-contents { position:relative; }
-#wrap-contents div.page { position:absolute; left:-800px; top:0; width:800px; height:600px; background:#999; overflow:hidden; }
+#wrap-contents .page { position:absolute; left:-800px; top:0; width:800px; height:600px; background:#999;  }
+#wrap-contents .page .sub-page { position:absolute; left:0; top:0; }
+#wrap-contents .page .sub-page li { width:800px; height:600px; background:#666; overflow:hidden;}
 /* -------------------------------------------- footer ------------------------------------- */
 #wrap-footer { position:fixed; bottom:0px; height:50px; }
