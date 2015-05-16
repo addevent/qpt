@@ -5,15 +5,22 @@
 <title>QUICK PT - QPT</title>
 
 <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8">
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 <link rel="stylesheet" href="lib/css/common.css">
 <link rel="stylesheet" href="lib/css/reset.css">
 <link rel="stylesheet" href="lib/css/layout.css">
 <link rel="stylesheet" href="lib/css/page.css">
 
-<script language="javascript" src="lib/js/jquery-1.11.1.min.js"></script>
-<script language="javascript" src="lib/js/spot.js"></script>
-<script language="javascript" src="lib/js/ui.js"></script>
+<script type="text/javascript" src="lib/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="lib/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="lib/js/spot.js"></script>
+<script type="text/javascript" src="lib/js/qpt.js"></script>
 
 <!--***********************< 페이지별 메뉴활성화 수정>************************--> 
 <script type='text/javascript' >
@@ -24,23 +31,17 @@
 
 <body>
 <!-- =========================================<< contents >>============================================== -->
-<!--
-    한페이지 입니다.
-    <div class="page">
-    	<h2>-페이지의 큰 제목 입니다.-<h2>
-        <h3>-페이지의 작은 제목 입니다.-<h3>
-    </div>
-
--->
 <div id="wrap-contents" class="wrap">
     <div class="page type1">
     	<h2>-페이지의 큰 제목 입니다.-<h2>
-        <h3>-페이지의 작은 제목 입니다.-<h3>
+        <h3>-1페이지 입니다.-<h3>
     </div>
     <div class="page">
         <ul class="sub-page">
             <li>
-                -서브1-
+                <h2>-페이지의 큰 제목 입니다.-<h2>
+        		<h3>-2페이지 입니다.-<h3>
+                <p> 현재 페이지는 위아래로 움직입니다. </>
             </li>
             <li>
                 -서브2-
@@ -57,14 +58,24 @@
         </ul>
     </div>
     <div class="page">
-    	<p>-내용3-</p>
+    	<h2>-페이지의 큰 제목 입니다.-<h2>
+        <h3>-3페이지 입니다.-<h3>
     </div>
     <div class="page">
-    	<p>-내용4-</p>
+    	<h2>-페이지의 큰 제목 입니다.-<h2>
+        <h3>-4페이지 입니다.-<h3>
     </div>
     <div class="page">
-    	<p>-내용5-</p>
+    	<h2>-페이지의 큰 제목 입니다.-<h2>
+        <h3>-5페이지 입니다.-<h3>
     </div>
+</div>
+
+<div id="controls" style="display: block;">
+    <div class="navigate-left"></div>
+    <div class="navigate-right"></div>
+    <div class="navigate-up"></div>
+    <div class="navigate-down"></div>
 </div>
 
 

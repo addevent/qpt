@@ -33,8 +33,21 @@
 }
 */
 
+html{ 
+ /* height:100%; overflow-x: hidden; overflow-y: auto;*/
+  height:100%; overflow:hidden;
+  -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
+  font-size:14px;
+}
 
-body { font-family: 나눔고딕,'Nanum Gothic', sans-serif !important; font-weight:400; font-size:14px; line-height:1.5em; background:#eee; overflow:hidden; }
+body{ height:100%; padding:0; margin:0;
+  font-family: 나눔고딕,'Nanum Gothic', sans-serif;
+  font-size: 16px; font-size: 1rem;
+  font-weight:400;
+  line-height: 19px; line-height: 1.4rem;
+  letter-spacing: -1px; letter-spacing: -0.03em;
+  background:#eee;
+}
 
 hr { border:0; background:#e6e6e6; height:1px; margin:0; padding:0;}
 

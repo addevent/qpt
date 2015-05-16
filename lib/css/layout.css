@@ -10,14 +10,85 @@
 
 /* -------------------------------------------Layout------------------------------------------- */
 .wrap { width:100%; }
-.container { position:relative; width:800px;  margin:0 auto; }
+.container { position:relative; width:100%;  margin:0 auto; }
+
+/*********************************************
+ * CONTROLS
+ *********************************************/
+#controls {
+  display: none;
+  position: fixed;
+  width: 110px;
+  height: 110px;
+  z-index: 30;
+  right: 10px;
+  bottom: 10px;
+  -webkit-user-select: none; }
+
+#controls div {
+  position: absolute;
+  opacity: 0.05;
+  width: 0;
+  height: 0;
+  border: 12px solid transparent;
+  -webkit-transform: scale(0.9999);
+      -ms-transform: scale(0.9999);
+          transform: scale(0.9999);
+  -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+#controls div.enabled {
+  opacity: 0.7;
+  cursor: pointer; }
+
+#controls div.enabled:active {
+  margin-top: 1px; }
+
+#controls div.navigate-left {
+  top: 42px;
+  border-right-width: 22px;
+  border-right-color: #000; }
+
+#controls div.navigate-left.fragmented {
+  opacity: 0.3; }
+
+#controls div.navigate-right {
+  left: 74px;
+  top: 42px;
+  border-left-width: 22px;
+  border-left-color: #000; }
+
+#controls div.navigate-right.fragmented {
+  opacity: 0.3; }
+
+#controls div.navigate-up {
+  left: 42px;
+  border-bottom-width: 22px;
+  border-bottom-color: #000; }
+
+#controls div.navigate-up.fragmented {
+  opacity: 0.3; }
+
+#controls div.navigate-down {
+  left: 42px;
+  top: 74px;
+  border-top-width: 22px;
+  border-top-color: #000; }
+
+#controls div.navigate-down.fragmented {
+  opacity: 0.3; }
+
+/* ------------------------------------------------------------------------------------------ */
+h2 { text-align:center; }
 
 /* -------------------------------------------- header ------------------------------------- */
 #wrap-header { position:fixed; top:0px; height:50px; }
 /* -------------------------------------------- contents ------------------------------------- */
-#wrap-contents { position:relative; }
-#wrap-contents .page { position:absolute; left:-800px; top:0; width:800px; height:600px; background:#999;  }
-#wrap-contents .page .sub-page { position:absolute; left:0; top:0; }
-#wrap-contents .page .sub-page li { width:800px; height:600px; background:#666; overflow:hidden;}
+#wrap-contents { position:relative;}
+/*#wrap-contents .page { position:absolute; left:-800px; top:0; width:800px; height:600px; background:#999;  }*/
+#wrap-contents .page { position:absolute; left:0; top:0; width: 100%; height:600px; background:#999;  }
+#wrap-contents .page .sub-page { position:absolute; left:0; top:0; width:100%; }
+#wrap-contents .page .sub-page li {  height:600px; background:#666; overflow:hidden; }
 /* -------------------------------------------- footer ------------------------------------- */
 #wrap-footer { position:fixed; bottom:0px; height:50px; }
